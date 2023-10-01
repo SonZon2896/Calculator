@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/lessons/c++/Calculator/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Calculator.dir\\Calculator_use.cpp.obj -c D:\\lessons\\c++\\Calculator\\Calculator_use.cpp",
+  "file": "D:/lessons/c++/Calculator/Calculator_use.cpp",
+  "output": "CMakeFiles/Calculator.dir/Calculator_use.cpp.obj"
+}
+]
