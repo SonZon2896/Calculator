@@ -1,45 +1,11 @@
+#ifndef _CALCULATOR_H_
+#define _CALCULATOR_H_
+
 #include <iostream>
 #include <vector>
 #include <string>
 #include <math.h>
-
-/// @brief Main Class Token (number or sign)
-class Token
-{
-private:
-    char sign;
-    double value;
-public:
-    Token(char sign)
-    {
-        this->sign = sign;
-        this->value = 0;
-    }
-    Token(double value)
-    {
-        this->sign = '0';
-        this->value = value;
-    }
-
-    double GetValue() {return this->value;}
-    char GetSign() {return this->sign;}
-
-    void SetValue(double value) {this->sign = '0'; this->value = value;}
-
-    bool isNumber() {return this->sign == '0';}
-
-    std::string PrintToken()
-    {
-        if (this->sign == '0')
-            return std::to_string(this->value);
-        else
-        {
-            std::string temp = "";
-            temp.push_back(this->sign);
-            return temp;
-        }
-    }
-};
+#include "Token.h"
 
 /// @brief Tokens - all Tokens in expression
 /// @brief LayersSigns and Signs - Signs, using in Layers
@@ -57,10 +23,6 @@ bool CharInSigns(char ch, std::string signs)
             return true;
     return false;
 }
-
-/// @brief Make Token by sign or value
-Token GetToken(char sign) {return Token(sign);}
-Token GetToken(double value) {return Token(value);}
 
 /// @brief Convert Expression To Tokens
 void ExpToTokens(std::string exp)
@@ -247,3 +209,5 @@ double Calculate(std::string expression)
     CalculateWithAOV();
     return Tokens[0].GetValue();
 }
+
+#endif
