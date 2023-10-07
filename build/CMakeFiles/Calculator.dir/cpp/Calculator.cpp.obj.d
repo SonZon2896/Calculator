@@ -1,15 +1,17 @@
-CMakeFiles/Calculator.dir/cpp/Token.cpp.obj: \
- D:\lessons\c++\Calculator\cpp\Token.cpp \
- D:/lessons/c++/Calculator/headers/Token.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
+CMakeFiles/Calculator.dir/cpp/Calculator.cpp.obj: \
+ D:\lessons\c++\Calculator\cpp\Calculator.cpp \
+ D:/lessons/c++/Calculator/headers/Calculator.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
  C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
@@ -25,26 +27,58 @@ CMakeFiles/Calculator.dir/cpp/Token.cpp.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
  C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
  C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
+ C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+ C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
  C:/mingw64/x86_64-w64-mingw32/include/locale.h \
- C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+ C:/mingw64/x86_64-w64-mingw32/include/pthread.h \
+ C:/mingw64/x86_64-w64-mingw32/include/errno.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+ C:/mingw64/x86_64-w64-mingw32/include/process.h \
+ C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
+ C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+ C:/mingw64/x86_64-w64-mingw32/include/signal.h \
+ C:/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
+ C:/mingw64/x86_64-w64-mingw32/include/time.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ C:/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+ C:/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
+ C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
+ C:/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
@@ -73,19 +107,14 @@ CMakeFiles/Calculator.dir/cpp/Token.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string_view \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functional_hash.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
- C:/mingw64/x86_64-w64-mingw32/include/limits.h \
  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
  C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
- C:/mingw64/x86_64-w64-mingw32/include/errno.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
@@ -93,38 +122,9 @@ CMakeFiles/Calculator.dir/cpp/Token.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
- C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
- C:/mingw64/x86_64-w64-mingw32/include/pthread.h \
- C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
- C:/mingw64/x86_64-w64-mingw32/include/process.h \
- C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
- C:/mingw64/x86_64-w64-mingw32/include/signal.h \
- C:/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
- C:/mingw64/x86_64-w64-mingw32/include/time.h \
- C:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
- C:/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
- C:/mingw64/x86_64-w64-mingw32/include/_timeval.h \
- C:/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
- C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
- C:/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/system_error \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
@@ -142,4 +142,27 @@ CMakeFiles/Calculator.dir/cpp/Token.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/math.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+ C:/mingw64/x86_64-w64-mingw32/include/math.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/gamma.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/special_function_util.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/bessel_function.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/beta_function.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/ell_integral.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/exp_integral.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/hypergeometric.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/modified_bessel_func.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_hermite.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/riemann_zeta.tcc \
+ D:/lessons/c++/Calculator/headers/Token.h

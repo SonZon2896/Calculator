@@ -546,29 +546,29 @@ Calculator_use.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/Calculator_use.cpp.s
 .PHONY : Calculator_use.cpp.s
 
-cpp/Claculator.obj: cpp/Claculator.cpp.obj
-.PHONY : cpp/Claculator.obj
+cpp/Calculator.obj: cpp/Calculator.cpp.obj
+.PHONY : cpp/Calculator.obj
 
 # target to build an object file
-cpp/Claculator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/cpp/Claculator.cpp.obj
-.PHONY : cpp/Claculator.cpp.obj
+cpp/Calculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/cpp/Calculator.cpp.obj
+.PHONY : cpp/Calculator.cpp.obj
 
-cpp/Claculator.i: cpp/Claculator.cpp.i
-.PHONY : cpp/Claculator.i
+cpp/Calculator.i: cpp/Calculator.cpp.i
+.PHONY : cpp/Calculator.i
 
 # target to preprocess a source file
-cpp/Claculator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/cpp/Claculator.cpp.i
-.PHONY : cpp/Claculator.cpp.i
+cpp/Calculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/cpp/Calculator.cpp.i
+.PHONY : cpp/Calculator.cpp.i
 
-cpp/Claculator.s: cpp/Claculator.cpp.s
-.PHONY : cpp/Claculator.s
+cpp/Calculator.s: cpp/Calculator.cpp.s
+.PHONY : cpp/Calculator.s
 
 # target to generate assembly for a file
-cpp/Claculator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/cpp/Claculator.cpp.s
-.PHONY : cpp/Claculator.cpp.s
+cpp/Calculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/cpp/Calculator.cpp.s
+.PHONY : cpp/Calculator.cpp.s
 
 cpp/Token.obj: cpp/Token.cpp.obj
 .PHONY : cpp/Token.obj
@@ -637,9 +637,9 @@ help:
 	@echo ... Calculator_use.obj
 	@echo ... Calculator_use.i
 	@echo ... Calculator_use.s
-	@echo ... cpp/Claculator.obj
-	@echo ... cpp/Claculator.i
-	@echo ... cpp/Claculator.s
+	@echo ... cpp/Calculator.obj
+	@echo ... cpp/Calculator.i
+	@echo ... cpp/Calculator.s
 	@echo ... cpp/Token.obj
 	@echo ... cpp/Token.i
 	@echo ... cpp/Token.s

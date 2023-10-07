@@ -5,10 +5,10 @@ include(CTest)
 enable_testing()
 
 add_executable(Calculator calculator_use.cpp
-                         headers/Calculator.h
-                         cpp/Claculator.cpp
-                         headers/Token.h
                          cpp/Token.cpp
+                         cpp/Calculator.cpp
+                         headers/Token.h
+                         headers/Calculator.h
                          )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

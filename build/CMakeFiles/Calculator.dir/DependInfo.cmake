@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/lessons/c++/Calculator/Calculator_use.cpp" "CMakeFiles/Calculator.dir/Calculator_use.cpp.obj" "gcc" "CMakeFiles/Calculator.dir/Calculator_use.cpp.obj.d"
-  "D:/lessons/c++/Calculator/cpp/Claculator.cpp" "CMakeFiles/Calculator.dir/cpp/Claculator.cpp.obj" "gcc" "CMakeFiles/Calculator.dir/cpp/Claculator.cpp.obj.d"
+  "D:/lessons/c++/Calculator/cpp/Calculator.cpp" "CMakeFiles/Calculator.dir/cpp/Calculator.cpp.obj" "gcc" "CMakeFiles/Calculator.dir/cpp/Calculator.cpp.obj.d"
   "D:/lessons/c++/Calculator/cpp/Token.cpp" "CMakeFiles/Calculator.dir/cpp/Token.cpp.obj" "gcc" "CMakeFiles/Calculator.dir/cpp/Token.cpp.obj.d"
   )
 

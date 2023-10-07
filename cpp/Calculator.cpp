@@ -1,5 +1,13 @@
 #include "../headers/Calculator.h"
 
+/// @brief Tokens - all Tokens in expression
+/// @brief LayersSigns and Signs - Signs, using in Layers
+std::vector<Token> Tokens;
+std::string ThirdLayerSigns = "^";
+std::string SecondLayerSigns = "*/";
+std::string FirstLayerSigns = "+-";
+const std::string Signs = FirstLayerSigns + SecondLayerSigns + ThirdLayerSigns + "()";
+
 bool CharInSigns(char ch, std::string signs)
 {
     for (int i: signs)
