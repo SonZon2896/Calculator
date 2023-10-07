@@ -546,6 +546,54 @@ Calculator_use.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/Calculator_use.cpp.s
 .PHONY : Calculator_use.cpp.s
 
+cpp/Claculator.obj: cpp/Claculator.cpp.obj
+.PHONY : cpp/Claculator.obj
+
+# target to build an object file
+cpp/Claculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/cpp/Claculator.cpp.obj
+.PHONY : cpp/Claculator.cpp.obj
+
+cpp/Claculator.i: cpp/Claculator.cpp.i
+.PHONY : cpp/Claculator.i
+
+# target to preprocess a source file
+cpp/Claculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/cpp/Claculator.cpp.i
+.PHONY : cpp/Claculator.cpp.i
+
+cpp/Claculator.s: cpp/Claculator.cpp.s
+.PHONY : cpp/Claculator.s
+
+# target to generate assembly for a file
+cpp/Claculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/cpp/Claculator.cpp.s
+.PHONY : cpp/Claculator.cpp.s
+
+cpp/Token.obj: cpp/Token.cpp.obj
+.PHONY : cpp/Token.obj
+
+# target to build an object file
+cpp/Token.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/cpp/Token.cpp.obj
+.PHONY : cpp/Token.cpp.obj
+
+cpp/Token.i: cpp/Token.cpp.i
+.PHONY : cpp/Token.i
+
+# target to preprocess a source file
+cpp/Token.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/cpp/Token.cpp.i
+.PHONY : cpp/Token.cpp.i
+
+cpp/Token.s: cpp/Token.cpp.s
+.PHONY : cpp/Token.s
+
+# target to generate assembly for a file
+cpp/Token.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/cpp/Token.cpp.s
+.PHONY : cpp/Token.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -589,6 +637,12 @@ help:
 	@echo ... Calculator_use.obj
 	@echo ... Calculator_use.i
 	@echo ... Calculator_use.s
+	@echo ... cpp/Claculator.obj
+	@echo ... cpp/Claculator.i
+	@echo ... cpp/Claculator.s
+	@echo ... cpp/Token.obj
+	@echo ... cpp/Token.i
+	@echo ... cpp/Token.s
 .PHONY : help
 
 
