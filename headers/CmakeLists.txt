@@ -1,0 +1,7 @@
+target_sources(CalculatorH
+                PUBLIC Calculator.h
+                PRIVATE ../cpp/Claculator.cpp)
+                
+target_sources(TokenH
+                PUBLIC Token.h
+                PRIVATE ../cpp/Token.cpp)
