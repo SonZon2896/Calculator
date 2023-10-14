@@ -8,21 +8,26 @@ class Token
 private:
     char sign;
     double value;
+    std::string variable_name;
 public:
-    Token(char sign);
-    Token(double value);
+    Token(char);
+    Token(double);
+    Token(std::string, double);
 
-    double GetValue() {return this->value;}
-    char GetSign() {return this->sign;}
+    double GetValue();
+    char GetSign();
+    std::string GetVariable_Name();
 
-    void SetValue(double value);
+    void SetValue(double);
 
     bool isNumber();
+    bool isVariable();
 
     std::string PrintToken();
     
 };
 
-/// @brief Make Token by sign or value
-Token GetToken(char sign);
-Token GetToken(double value);
+/// @brief Make Token
+Token GetToken(char);
+Token GetToken(double);
+Token GetVariable(std::string, double);
